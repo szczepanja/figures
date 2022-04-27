@@ -1,0 +1,1 @@
+trait Figures extends Perimeterable with Areable
