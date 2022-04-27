@@ -1,4 +1,4 @@
-case class Circle(r: Double) {
+case class Circle(r: Double) extends Figures {
 
   def area: Double = Math.PI * (r * r)
 

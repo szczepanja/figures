@@ -1,5 +1,5 @@
 trait Perimeterable {
 
-  def perimeter: Long
+  def perimeter: Double
 
 }

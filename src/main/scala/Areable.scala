@@ -1,5 +1,5 @@
 trait Areable {
 
-  def area: Long
+  def area: Double
 
 }

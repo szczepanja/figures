@@ -1,7 +1,7 @@
-case class Square(a: Int) {
+case class Square(a: Int) extends Figures {
 
-  def area: Int = a * a
+  def area: Double = a * a
 
-  def perimeter: Int = 4 * a
+  def perimeter: Double = 4 * a
 
 }

@@ -1,4 +1,4 @@
-case class Triangle(a: Int, b: Int, c: Int) {
+case class Triangle(a: Int, b: Int, c: Int) extends Figures {
 
   def area: Double = (a * c) / 2
 
